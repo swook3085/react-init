@@ -9,6 +9,7 @@
   },
   "author": "",
   "license": "ISC",
+  "homepage": ".",
   "dependencies": {
     "axios": "^0.21.1",
     "react": "^17.0.2",
