@@ -4,7 +4,6 @@ import { connect } from 'react-redux';
 import { onAgeUp, onAgeDown } from "../../redux/actions/Action";
 import axiosInstance from "../../common/axiosModule";
 
-
 class CounterContainer extends React.Component {
     handleIncrement = () => {
         this.props.onAgeUp();
