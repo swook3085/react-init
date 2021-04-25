@@ -5,7 +5,7 @@ export default class HomeContainer extends Component {
     render() {
         return (
             <div>
-                <h1>home</h1>
+                <h1>Hello React</h1>
             </div>
         )
     }

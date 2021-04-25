@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import Home from '../../components/home/Home'
+import { hot } from 'react-hot-loader'
 
-
-export default class HomeContainer extends Component {
+class HomeContainer extends Component {
     render() {
         return (
             <Home />
         )
     }
 }
+export default hot(module)(HomeContainer);
